@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "BehsaApp.Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7795;http://localhost:7796"
+    }
+  }
+}

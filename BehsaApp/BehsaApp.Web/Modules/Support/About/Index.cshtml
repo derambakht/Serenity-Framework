@@ -1,0 +1,22 @@
+
+<h1>About Page</h1>
+<button onclick="getMembers()">Show Members</button>
+<ul id="members">
+</ul>
+
+<script>
+    function getMembers() {
+        fetch("/Services/Support/About/GetMembers")
+            .then(response => response.json())
+            .then(result => generateRows(result))
+    }
+
+    function generateRows(data) {
+        console.log("members data:", data);
+        for(let i=0; i < data.length; i++){
+            const item = data[i];
+            const li = `<li>${item.FirstName} ${item.LastName}<li>`;
+            $("#members").append(li);
+        }
+    }
+</script>

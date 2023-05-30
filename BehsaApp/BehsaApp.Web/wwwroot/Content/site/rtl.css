@@ -1,0 +1,187 @@
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+.slick-header-column.ui-state-default, .slick-group-header-column.ui-state-default {
+  float: right;
+}
+
+.slick-sort-indicator {
+  right: auto;
+  left: 2px;
+}
+
+.s-sidebar {
+  left: auto;
+  right: 0;
+}
+
+@media (min-width: 1200px) {
+  .s-main {
+    padding-left: 0;
+    padding-right: 300px;
+  }
+}
+
+.s-dashboard-card-sm .icon {
+  right: auto !important;
+  left: 10px;
+}
+
+.s-Toolbar .buttons-inner {
+  float: right;
+}
+
+.s-QuickSearchBar {
+  float: right;
+}
+
+  .s-QuickSearchBar .s-QuickSearchInput {
+    padding: 0 4px 0 2px;
+  }
+
+  .s-QuickSearchBar .quick-search-icon {
+    padding: 0 8px 0 0;
+  }
+
+.select2-container .select2-choice .select2-arrow {
+  right: auto;
+  left: 0;
+}
+
+.select2-container-multi .select2-search-choice-close {
+  left: 3px;
+  right: auto;
+}
+
+.select2-container-multi .select2-choices li {
+  float: right;
+}
+
+.s-sidebar-icon {
+  margin-right: 0px;
+  margin-left: 8px;
+}
+
+.s-sidebar-header-actions {
+  margin-right: auto;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-menu-end[data-bs-popper] {
+  right: auto;
+  left: 0;
+}
+
+.select2-container.select2-allowclear .select2-choice .select2-chosen {
+  margin-right: 0;
+  margin-left: 42px;
+}
+
+.select2-container .select2-choice abbr.select2-search-choice-close {
+  left: 25px;
+  right: auto;
+}
+
+.select2-container .select2-choice {
+  padding: 0 6px 0 0;
+}
+
+.s-FilterPanel a.delete {
+  float: right;
+}
+
+.s-FilterPanel div.f, .s-FilterPanel div.l, .s-FilterPanel div.o, .s-FilterPanel div.v {
+  padding-left: 4px;
+  float: right;
+}
+
+  .s-FilterPanel div.v input {
+    float: right;
+  }
+
+  .s-FilterPanel div.v .select2-container {
+    float: right;
+  }
+
+.select2-container .select2-choice > .select2-chosen {
+  margin-right: 0;
+  margin-left: 26px;
+}
+
+.s-FilterPanel button {
+  float: right;
+  margin-left: 4px;
+  margin-right: 0;
+}
+
+.ms-auto {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+.bd-title {
+  position: relative;
+}
+
+.bd-month {
+  margin-right: 45px;
+}
+
+.bd-year {
+  margin-right: 45px;
+}
+
+.bd-next {
+  position: absolute;
+  left: -4px;
+}
+
+.bd-prev {
+  position: absolute;
+  right: -4px;
+}
+
+
+
+element.style {
+}
+
+.flex-layout.s-Panel, .flex-layout .ui-dialog-content, .flex-layout .s-DialogContent, .flex-layout .s-Form, .flex-layout form, .flex-layout .fieldset, .flex-layout .ui-tabs-panel, .flex-layout .ui-tabs-panel > .s-DataGrid, .flex-layout .property-panes, .flex-layout .property-panes .tab-pane.active, .flex-layout .s-PropertyGrid {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -moz-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -ms-flex-positive: 1;
+  -ms-flex-negative: 1;
+  -ms-flex-preferred-size: auto;
+}
+
+.s-Dialog .s-Form {
+  min-height: 250px !important;
+}
+
+.slick-cell input[type=text], select {
+  width: 100%;
+}

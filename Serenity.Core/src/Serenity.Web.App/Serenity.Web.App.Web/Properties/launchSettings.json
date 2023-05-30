@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Serenity.Web.App.Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7560;http://localhost:7561"
+    }
+  }
+}

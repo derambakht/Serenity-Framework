@@ -1,0 +1,27 @@
+@inject Serenity.ITextLocalizer Localizer
+@{
+    ViewData["Title"] = "Contact";
+    ViewData["PageId"] = "Contact";
+}
+
+<div id="ContactPanel" class="s-container-tight mt-5 s-Form flex-layout">
+    <h1>Test Change Password</h1>
+    <form novalidate="novalidate">
+            <div>
+                <label>FullName :</label>
+                <input name="fullName"/>
+            </div>
+        <div>
+            <label>Subject :</label>
+            <input name="subject" />
+        </div>
+        <div>
+            <label>Message :</label>
+            <textarea name="message"></textarea>
+        </div>
+        <button id="SubmitButton" type="submit" class="btn btn-primary w-100">
+              Save
+            </button>
+        
+    </form>
+</div>
