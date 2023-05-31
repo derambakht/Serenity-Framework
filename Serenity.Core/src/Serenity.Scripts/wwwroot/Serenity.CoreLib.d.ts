@@ -2982,6 +2982,7 @@ declare namespace Slick {
         onAjaxCall?: RemoteViewAjaxCallback<any>;
         getItemMetadata?: (p1?: any, p2?: number) => any;
         errorMsg?: string;
+        editItem?: any;
     }
     interface PagingInfo {
         rowsPerPage: number;
@@ -3069,6 +3070,7 @@ declare namespace Slick {
         method: string;
         idField: string;
         seekToPage?: number;
+        setCardConfig: (config: any) => void;
     }
     class RemoteView<TEntity> {
         constructor(options: RemoteViewOptions);
@@ -5183,7 +5185,8 @@ declare namespace Serenity {
         protected getButtons(): ToolButton[];
         protected newRefreshButton(noText?: boolean): ToolButton;
         protected addButtonClick(): void;
-        protected editItem(entityOrId: any): void;
+        protected cardViewButtonClick(): void;
+        protected editItem: (entityOrId: any) => void;
         protected editItemOfType(itemType: string, entityOrId: any): void;
         private _service;
         protected getService(): string;
