@@ -32,7 +32,6 @@ public sealed class FinancialRowsRow : Row<FinancialRowsRow.RowFields>, IIdRow
         get => fields.Amount[this];
         set => fields.Amount[this] = value;
     }
-
     public class RowFields : RowFieldsBase
     {
         public Int32Field Id;

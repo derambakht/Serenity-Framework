@@ -1,4 +1,4 @@
-﻿import { Decorators, EntityGrid } from '@serenity-is/corelib';
+import { Decorators, EntityGrid } from '@serenity-is/corelib';
 import { FinancialRowsColumns, FinancialRowsRow, FinancialRowsService } from '../../ServerTypes/Behsa';
 import { FinancialRowsDialog } from './FinancialRowsDialog';
 
@@ -10,6 +10,7 @@ export class FinancialRowsGrid extends EntityGrid<FinancialRowsRow, any> {
     protected getService() { return FinancialRowsService.baseUrl; }
 
     constructor(container: JQuery) {
-        super(container);
+        super(container, { cardConfig: {showCard:true, id: FinancialRowsRow.idProperty, title: FinancialRowsRow.Fields.ChangeDate, remark: FinancialRowsRow.Fields.Amount } });
     }
+
 }
